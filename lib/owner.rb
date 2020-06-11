@@ -6,7 +6,7 @@ class Owner
   @@owner = []
   def initialize(name)
     @name = name
-    @species = “human”
+    @species = "human"
     @@owner << self
   end
   def say_species
