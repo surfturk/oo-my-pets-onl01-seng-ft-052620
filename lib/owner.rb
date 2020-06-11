@@ -1,5 +1,5 @@
 class Owner
-  
+  # code goes here
   attr_accessor
   attr_writer
   attr_reader :name, :species
@@ -51,7 +51,7 @@ class Owner
       cats.owner = nil
   end
   def list_pets
-   “I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s).”
+   "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
  end
 end
 end
