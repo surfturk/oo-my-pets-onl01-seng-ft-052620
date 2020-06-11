@@ -36,10 +36,10 @@ class Owner
     Dog.new(dog, self)
   end
   def walk_dogs
-    self.dogs.each {|dog| dog.mood = “happy”}
+    self.dogs.each {|dog| dog.mood = "happy"}
   end
     def feed_cats
-    self.cats.each {|cat| cat.mood = “happy”}
+    self.cats.each {|cat| cat.mood = "happy"}
   end
   def sell_pets
      self.dogs.each do |dogs|
